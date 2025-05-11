@@ -61,7 +61,7 @@ while game:
         racket2.update_r()
         ball.rect.x += speed_x
         ball.rect.y += speed_y
-                   #если мяч достигает границ экрана, меняем направление его движения
+        #если мяч достигает границ экрана, меняем направление его движения
         if ball.rect.y > win_height-50 or ball.rect.y < 0:
             speed_y *= -1
 
